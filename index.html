@@ -17,6 +17,8 @@
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+
 </head>
 
 <!-- Need to add javascript function to body tag -->
@@ -26,7 +28,7 @@
 
 <!-- Navigation bar -->
 <nav class="navbar navbar-default navbar-fixed-top">
-  <div class="container">
+  <div class="container-fluid">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
         <span class="sr-only">Toggle navigation</span>
@@ -34,11 +36,11 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#"><img src="images/logo-nobg.png" alt=""></a>
+      <a class="navbar-brand" href="#"><img src="images/logo.png" alt="" class="img-responsive"></a>
     </div>
     <div id="navbar" class="navbar-collapse collapse">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="#">ABOUT</a></li>
+      <ul class="nav navbar-nav navbar-center">
+        <li><a href="#">ABOUT</a></li>
         <li><a href="#about">PROJECTS &amp; WINNERS</a></li>
         <li><a href="#contact">SPONSOR A PRIZE</a></li>
         <li><a href="#contact">ADVERTISING</a></li>
@@ -46,8 +48,9 @@
         <li><a href="#contact">CONTACT</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">CART</a></li>
-        <li><a href="#">SIGN IN</a></li>
+        <li><a href="#" class="link_orange">CART</a></li>
+        <li class="divider-vertical hidden-xs hidden-sm"></li>
+        <li><a href="#" class="link_orange">SIGN IN</a></li>
       </ul>
     </div><!--/.nav-collapse -->
   </div>
@@ -56,66 +59,83 @@
 <!-- 1st row of content - title showcase -->
 <div class="jumbotron row row1">
 	<div class="container">
-		<img src="images/video-row1.jpg" class="col-sm-4">
-		<div class="col-sm-8">
+		<img src="images/video-row1.jpg" class="col-sm-5 col-xs-12">
+		<div class="col-sm-7">
 			<h1>The Green X Prize</h1>
 			<p>REWARDING INNOVATION AND INVENTION</p>
 		</div>
 	</div>
 </div>
 
-<!-- Wrapper for other rows -->
-<div class="container">
+<!-- Wrapper for rows 2 & 3 -->
+<div class="container box-shadow r2r3">
 	<!-- 2nd row of content -->
 	<div class="row row2">
-		<img src="images/img-row2.jpg" alt="" class="col-sm-4">
-		<div class="col-sm-8">
-			<h3>Join the Global Online Community</h3>
+		<img src="images/img-row2.jpg" alt="" class="col-sm-5 col-xs-12 img-responsive">
+		<div class="col-sm-7 pull-left">
+			<h2>Join the Global Online Community</h2>
 			<p>We invite you, as a socially conscious entrepreneur, to become part of an important new movement. It’s where you make a difference in your community, expose your ideas, generate profits and benefit by attracting public, private and corporate investors – and all on your terms.</p>
-			<button class="btn btn-warning">Learn More</button>
+			<button class="btn btn-warning pull-left">LEARN MORE</button>
 		</div>
 	</div>
+
+	<hr style="border: 1px solid lightgray; width: 90%; margin-top: 1px; margin-bottom: 1px;">
 
 	<!-- 3rd row of content -->
 	<div class="row row3">
-		<img src="images/img-row3.jpg" alt="" class="col-sm-4">
-		<div class="col-sm-8">
-			<h3>Make a Difference, Get Rewarded</h3>
+		<img src="images/img-row3.jpg" alt="" class="col-sm-5 col-xs-12 img-responsive">
+		<div class="col-sm-7 pull-right">
+			<h2>Make a Difference, Get Rewarded</h2>
 			<p>Innovate and change the world and get rewarded for your socially responsible idea, product or technology. Share your inspiration with our global community and you’ll have a chance at a monthly $10,000 cash prize.</p>
 		</div>
 	</div>
+</div>
 
+<div class="container">
 	<!-- 4th row of content -->
 	<div class="row row4">
-		<h3>LOOK WHAT OUR MEMBERS ARE INVENTING</h3>
-		<p>View to inspire your next great idea and your chance to compete to win $10,000!</p>
+		<h2>LOOK WHAT OUR MEMBERS ARE INVENTING</h2>
+		<p>View to inspire your next great idea and <br>your chance to compete to win $10,000!</p>
 	</div>
 
 	<!-- 5th row of content -->
 	<div class="row row5">
 		<div class="col-sm-3 members-info">
-				
+			<img src="images/img-row5.png" class="img-circle">
+			<h2>Unknown Participant</h2>
+			<p>Read a snapshot of a <b>Green X Prize</b> member’s amazing project.</p>
+			<a href=""><button class="btn btn-warning">Unknown X’s Project</button></a>
 		</div>
 		<div class="col-sm-3 members-info">
-				
+			<img src="images/img-row5.png" class="img-circle">
+			<h2>Unknown Participant</h2>
+			<p>Read a snapshot of a <b>Green X Prize</b> member’s amazing project.</p>
+			<a href=""><button class="btn btn-warning">Unknown X’s Project</button></a>	
 		</div>
 		<div class="col-sm-3 members-info">
-				
+			<img src="images/img-row5.png" class="img-circle">
+			<h2>Unknown Participant</h2>
+			<p>Read a snapshot of a <b>Green X Prize</b> member’s amazing project.</p>
+			<a href=""><button class="btn btn-warning">Unknown X’s Project</button></a>
 		</div>
 		<div class="col-sm-3 members-info">
-				
+			<img src="images/img-row5.png" class="img-circle">
+			<h2>Unknown Participant</h2>
+			<p>Read a snapshot of a <b>Green X Prize</b> member’s amazing project.</p>
+			<a href=""><button class="btn btn-warning">Unknown X’s Project</button></a>
 		</div>
 	</div>
 
 	<!-- 6th row of content -->
 	<div class="row row6">
-		<!-- yaha par why green x matters wala content banana hai -->
-		<img src="images/row6_sample.jpg" alt="">
+		<!-- <img src="images/row6_sample.jpg" alt="" class="img-responsive"> -->
+		
 	</div>
 
 	<!-- 7th row of content -->
+	
 	<div class="row row7">
-		<div class="col-sm-4 gx-info">
+		<!-- <div class="col-sm-4 gx-info">
 			<h4>IDENTIFY A CRITICAL PROBLEM</h4>
 			<p>You know making a difference matters, and Green X Prize helps make it happen.</p>
 		</div>
@@ -126,86 +146,105 @@
 		<div class="col-sm-4 gx-info">
 			<h4>GET INSPIRED AND CREATIVE</h4>
 			<p>Proactively share and inspire change to make the impossible, possible.</p>
-		</div>
+		</div> -->
 	</div>
 
 	<!-- 8th row of content -->
 	<div class="row row8">
-		<img src="images/icon-row8.jpeg" alt="">
-		<h4>You Know You Need to Help</h4>
+		<img src="images/icon-row8.jpeg" alt="" class="img-responsive img-circle center-block">
+		<h3>You Know You Need <br>to Help</h3>
 	</div>
 
 	<!-- 9th row of content -->
 	<div class="row row9">
 		<h2>Join the Movement - Make a difference!</h2>
 		<p>Members Create, Share, Collaborate, Vote - and Get Rewarded</p>
-
-		<!-- membership aur book wala part yaha daalna hai -->
-		<img src="images/row9_sample.jpg" alt="">
+		<br><br>
+		<!-- <img src="images/row9_sample.jpg" alt="" class="img-responsive"> -->
 		<h2>JOIN AND GET STARTED TODAY!</h2>
 	</div>
 
 	<!-- 10th row of content -->
 	<div class="row row10">
 		<div class="col-sm-3 members-info">
-			<img src="" alt="">
+			<img src="images/img1-row10.png">
 			<h4>Purchase and Read Go Green, Get Rich</h4>
-			<p></p>	
+			<p>Join other like-minded people worldwide to help implement sustainable innovation.</p>	
 		</div>
 		<div class="col-sm-3 members-info">
-			<img src="" alt="">
+			<img src="images/img2-row10.png">
 			<h4>Register with Your Unique Code</h4>
-			<p></p>	
+			<p>If you have an authentication code, just <a href="">click</a> to enter and get immediate access!</p>	
 		</div>
 		<div class="col-sm-3 members-info">
-			<img src="" alt="">
+			<img src="images/img3-row10.png">
 			<h4>Share Your Green Idea of Innovation</h4>
-			<p></p>
+			<p>Take your green idea to solve a problem and share it with the Green X community.</p>
 		</div>
 		<div class="col-sm-3 members-info">
-			<img src="" alt="">
+			<img src="images/img4-row10.png">
 			<h4>Complete, Get Votes and Win the Prize!</h4>
-			<p></p>
+			<p>Encourage your family and friends to vote and win the $10,000 Green X Prize!</p>
 		</div>
 	</div>
 
 	<!-- 11th row of content -->
-	<div class="row row11">
-		<h3></h3>
-		<p></p>
-		<hr>
-		<h3></h3>
-		<p></p>
+	<div class="row img-responsive box-shadow center-block row11">
+		<h3>Someone Wins $10,000 Each Month!</h3>
+		<p>Community voting to choose a winner is transparent and fair.</p>
+		<hr style="width: 60%; border: 0.1px solid lightgray;">
+		<h3>New Ideas are Sponsored Each Month!</h3>
+		<p>Supported by committed sponsors fostering ideas changing world.</p>
 		<button class="btn btn-warning">BECOME A SPONSOR</button>
 	</div>
 
 	<!-- 12th row of content -->
-	<div class="row row12">
+	<div class="row img-rounded box-shadow center-block row12">
 		<h3>Join the Green X Movement Today!</h3>
-		<p></p>
+		<p>New Ideas are Inspired, Sponsored and Rewarded Monthly.</p>
 		<button class="btn btn-warning">Lifetime Membership</button>
 		<button class="btn btn-warning">Monthly Membership</button>
 	</div>
 
 	<!-- 13th row of content -->
 	<div class="row row13">
-		<h3>Together We Can Create a Cleaner and Greener World!</h3>
+		<h3>Together We Can Create a <br>Cleaner and Greener World!</h3>
 		<p>Get Involved - Make A Difference!</p>
 	</div>
 
 	<!-- 14th row of content -->
 	<div class="row row14">
-		<button class="btn btn-group">About</button>
-		<button class="btn btn-group">Projects & Winners</button>
-		<button class="btn btn-group">Sponsor A Project</button>
-		<button class="btn btn-group">Advertising</button>
-		<button class="btn btn-group">Join</button>
-		<button class="btn btn-group">Contact</button>
-		
-		<h4>We are here to help!</h4>
+		<ul class="nav navbar-nav ftr_nav">
+	        <li><a href="#">ABOUT</a></li>
+	        <li><a href="#about">PROJECTS &amp; WINNERS</a></li>
+	        <li><a href="#contact">SPONSOR A PRIZE</a></li>
+	        <li><a href="#contact">ADVERTISING</a></li>
+	        <li><a href="#contact">JOIN</a></li>
+	        <li><a href="#contact">CONTACT</a></li>
+      	</ul>
 
+		<div class="col-sm-12">
+			<div class="col-sm-4 ftr_left">
+				<h4>We are here to help!</h4>
+				<a href="">Contact Us</a>
+				<a href="">FAQs</a>
+				<br>
+				<div class="ring-sm"></div>
+				<div class="ring-sm"></div>
+				<div class="ring-sm"></div>
+				<div class="ring-sm"></div>
+			</div>
+			<div class="col-sm-4 ftr_center">
+				<img src="images/logo.png" alt="" class="img-responsive center-block">
+				<p>Copyright&copy;2017 Go Green Media Labs, LLC. All rights reserved.</p>
+			</div>
+			<div class="col-sm-4 ftr_right">
+				<a href="#nav" class="bottom-right"><span class="glyphicon glyphicon-menu-up"></span><br>Back to top</a>
+			</div>
+		</div>
 	</div>
 </div>
+<div style="height: 50px;"></div>
 <!-- Code for body above here -->
 
 <script type="text/javascript" src="js/myJS.js"></script>
