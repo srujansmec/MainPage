@@ -14,9 +14,9 @@
 	<!-- SEO code above here -->
 
 	<title>Main Page</title>
-	<link rel="stylesheet" type="text/css" href="css/styles.css">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
 	<link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
 
 </head>
@@ -37,6 +37,12 @@
         <span class="icon-bar"></span>
       </button>
       <a class="navbar-brand" href="#"><img src="images/logo.png" alt="" class="img-responsive"></a>
+      <ul class="nav navbar-nav navbar-right" style="">
+      <li class=" hidden-sm hidden-xs"><a href="#" class="link_orange">CART</a></li>
+      <li class="hidden-md hidden-lg"><a href="" class="link_orange"><span class="glyphicon glyphicon-shopping-cart"></span></a></li>
+      <li class="divider-vertical"></li>
+      <li><a href="#" class="link_orange">Sign In</a></li>
+    </ul>
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav navbar-center">
@@ -47,11 +53,6 @@
         <li><a href="#contact">JOIN</a></li>
         <li><a href="#contact">CONTACT</a></li>
       </ul>
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#" class="link_orange">CART</a></li>
-        <li class="divider-vertical hidden-xs hidden-sm"></li>
-        <li><a href="#" class="link_orange">SIGN IN</a></li>
-      </ul>
     </div><!--/.nav-collapse -->
   </div>
 </nav>
@@ -60,7 +61,7 @@
 <div class="jumbotron row row1">
 	<div class="container">
 		<img src="images/video-row1.jpg" class="col-sm-5 col-xs-12">
-		<div class="col-sm-7">
+		<div class="col-sm-7 col-xs-12">
 			<h1>The Green X Prize</h1>
 			<p>REWARDING INNOVATION AND INVENTION</p>
 		</div>
@@ -72,7 +73,7 @@
 	<!-- 2nd row of content -->
 	<div class="row row2">
 		<img src="images/img-row2.jpg" alt="" class="col-sm-5 col-xs-12 img-responsive">
-		<div class="col-sm-7 pull-left">
+		<div class="col-sm-7 col-xs-12 pull-left">
 			<h2>Join the Global Online Community</h2>
 			<p>We invite you, as a socially conscious entrepreneur, to become part of an important new movement. It’s where you make a difference in your community, expose your ideas, generate profits and benefit by attracting public, private and corporate investors – and all on your terms.</p>
 			<button class="btn btn-warning pull-left">LEARN MORE</button>
@@ -128,25 +129,50 @@
 
 	<!-- 6th row of content -->
 	<div class="row row6">
+		<!-- yaha par why green x matters wala content banana hai -->
 		<!-- <img src="images/row6_sample.jpg" alt="" class="img-responsive"> -->
-		
+		<div class="col-sm-12 col-md-6 col-lg-6 no-padding-hr hight-box">
+			<div class="block">
+				<h2>WHY GREEN X MATTERS</h2>
+				<p class="text-small">For the first time an ordinary community and platform to share systainable green and clean energy solution with people everywhere<p>
+			</div>
+			<img src="images/logo.png" class="img-responsive angled-edge-img" width="250px">
+		</div>
+		<div class="col-sm-12 col-md-6 col-lg-6 no-padding-hr hight-box">
+			<div class="angled-edge-img-reverse">
+				<img src="images/img-row7.png" width="200px">
+			</div>
+			<div class="block-reverse">
+				<h2>HOW GREEN X WORKS</h2>
+				<p class="text-small">And Helps Make the World Sustainable</p>
+			</div>
+		</div>
 	</div>
 
 	<!-- 7th row of content -->
-	
 	<div class="row row7">
-		<!-- <div class="col-sm-4 gx-info">
-			<h4>IDENTIFY A CRITICAL PROBLEM</h4>
-			<p>You know making a difference matters, and Green X Prize helps make it happen.</p>
+		<div class="col-sm-4 col-xs-12 hight-box1">	
+			<div class="block-medium"> <!-- #66bb6a -->
+				<h4>IDENTIFY A CRITICAL PROBLEM</h4>	<p class="text-small">You know making a difference matters, and the Green X Prize makes it happen</p>
+			</div>
+			<img src="images/img1-row7.png" width="150px;">
 		</div>
-		<div class="col-sm-4 gx-info">
-			<h4>CONCEPTUALIZE THE SOLUTION</h4>
-			<p>Define your idea, movement or theory to change the world in a sustainable way.</p>
+		
+		<div class="col-sm-4 col-xs-12 hight-box1">
+			<div class="block-medium"> <!-- #66bb6a -->
+				<h4>CONCEPTUALIZE THE SOLUTION</h4>
+				<p class="text-small">Define your idea, movement or theory to change the world in a sustainable way.</p>
+			</div>
+			<img src="images/img2-row7.png" width="150px;">
 		</div>
-		<div class="col-sm-4 gx-info">
-			<h4>GET INSPIRED AND CREATIVE</h4>
-			<p>Proactively share and inspire change to make the impossible, possible.</p>
-		</div> -->
+		
+		<div class="col-sm-4 col-xs-12 hight-box1">	
+			<div class="block-medium"> <!-- #66bb6a -->
+				<h4>GET INSPIRED AND CREATIVE</h4>
+				<p class="text-small">Proactively share and inspire changes to make the impossible, possible.</p>
+			</div>
+				<img src="images/img3-row7.png" width="150px;">
+		</div>
 	</div>
 
 	<!-- 8th row of content -->
@@ -244,11 +270,12 @@
 		</div>
 	</div>
 </div>
+
 <div style="height: 50px;"></div>
 <!-- Code for body above here -->
 
-<script type="text/javascript" src="js/myJS.js"></script>
 <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/myJS.js"></script>
 </body>
 </html>
